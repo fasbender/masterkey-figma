@@ -1,0 +1,161 @@
+.sideBar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 0px 2.6px;
+    padding: 1rem;
+}
+
+.nav{
+    list-style: none;
+}
+.nav div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    font-family: 'Podkova', serif;
+    font-weight: bold;
+}
+
+.logo{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Podkova', serif;
+}
+/* ///////////////////////////////// SideBar /////////////////////////////////// */
+
+.home{
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+/* ///////////////////////////////// HomePage /////////////////////////////////// */
+
+
+.mainContent{
+    padding: 1rem;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.header-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+input{
+    padding: 14px 16px 14px 16px;
+    width: 90%;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+.search-icon{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title{
+    font-weight: bold;
+    font-family: 'Podkova', serif;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 10px;
+}
+.popular{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: bold;
+    font-family: 'Podkova', serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.bottomContent{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.card img{
+    width: 100%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+}
+.carousel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.deals{
+    width: 100px;
+    display: flex;
+}
+.deals img{
+    width: 100%;
+}
+.deets{
+    display: flex;
+}
+.team-pic{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffc300;
+}
+.team-desc{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d6d6d6;
+    padding: 2rem;
+}
+.team-desc div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+/* ///////////////////////////////// MainContent /////////////////////////////////// */
